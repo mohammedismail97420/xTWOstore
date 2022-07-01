@@ -1,0 +1,545 @@
+/* Home page */
+
+.grayBackground1 {
+    background: linear-gradient(#EFF0F0, #E6E7E7);
+}
+
+.grayBackground2 {
+    background-color: #EFF0F0;
+}
+
+.grayBackground3 {
+    background-color: #F7F7F7;
+}
+
+.customCarousel {
+    background-color: white;
+    padding: 30px;
+}
+
+.carouselRight {
+    display: flex;
+}
+
+.carouselLeft h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.carouselLeft p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.carouselDots {
+    margin-top: 20px;
+}
+
+.carouselDots span {
+    width: 7px;
+    height: 7px;
+    display: inline-block;
+    background-color: #cecece;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.carouselDots span.carouselDotActive {
+    background-color: #0E66B4;
+}
+
+.shopBox {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shopBoxText,
+.shopBoxLink {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.shopBoxLink:hover {
+    color: white;
+}
+
+
+.shopBoxLink {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.shopBoxLink span {
+    margin-left: 20px;
+}
+
+.shopNowBtn {
+    background-color: #0E66B4;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: 500;
+}
+
+.shopNowBtn span img {
+    max-width: 20px;
+    margin-left: 20px;
+}
+
+/* Grid */
+
+.customCarouselContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "A B"
+        "A C";
+}
+
+.customCarousel {
+    grid-area: A;
+}
+
+.shopBox1 {
+    grid-area: B;
+    background-image: url("../../public/images/shop-box-1.svg");
+
+}
+
+.shopBox2 {
+    grid-area: C;
+    background-image: url("../../public/images/shop-box-1.svg");
+
+}
+
+.cardIconContainer {
+    background-color: #E2E8EC;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+}
+
+.nbCardHeading {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.nbCardText {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.learnMore {
+    text-transform: uppercase;
+    color: #0E66B4;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.greyHr {
+    color: #c0c0c0;
+}
+
+.headingContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.seeAll {
+    color: #0E66B4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline;
+    white-space: nowrap;
+}
+
+.seeAll span {
+    margin-left: 10px;
+}
+
+.categoryCard {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    height: 250px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.cardBigText {
+    color: #EBECEC;
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: -20px;
+}
+
+.categoryCard img {
+    position: absolute;
+    bottom: -30px;
+    right: 10%;
+}
+
+
+.categoryCard h5 {
+    font-weight: bold;
+}
+
+.categoryCard p {
+    color: #8d8d8d;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.trendingCardImgContainer {
+    position: relative;
+    background-color: #dedede;
+    height: 200px;
+}
+
+.trendingCardImgContainer img {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.trendingCard {
+    margin-bottom: 50px;
+}
+
+.trendingCard .row .col-6 p {
+    color: #454545;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.trendingCard .row .col-6 h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.discoverBanner {
+    background-color: #0C1923;
+    padding: 50px 70px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.discoverBannerBg {
+    position: absolute;
+    top: -75px;
+    right: -400px;
+}
+
+
+.discoverLink {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.discoverLink span {
+    margin-left: 20px;
+}
+
+.discoverBanner h2 {
+    font-weight: 600;
+}
+
+.slick-slide {
+    padding: 0 10px;
+}
+
+.trendingProductCard {
+    background-color: #fff;
+    min-width: 300px;
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.ribbon1 {
+    background-color: #EB4D4B;
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 13px;
+    top: 30px;
+    left: -7px;
+}
+
+.ribbon1::after {
+    content: '';
+    position: absolute;
+    top: 21px;
+    left: 2.5px;
+    width: 0;
+    height: 0;
+    border-top: 4.5px solid transparent;
+    border-bottom: 4.5px solid transparent;
+    border-right: 4.5px solid #AB3533;
+    z-index: -1;
+    transform: rotate(134deg);
+}
+
+.ribbon2 {
+    background-color: #0E66B4;
+    color: white;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 13px;
+    border-radius: 2px;
+    position: absolute;
+    top: 25px;
+}
+
+.fav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.trendingProductCard h6 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.productImage {
+    margin: auto;
+}
+
+.trendingProductCard p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.productPrice span {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.productPrice span:first-child {
+    color: #0E66B4;
+    margin-right: 15px;
+}
+
+.productPrice span:nth-child(2) {
+    color: #AB3533;
+    margin-right: 5px;
+    text-decoration: line-through;
+}
+
+.productPrice span:nth-child(3) {
+    color: #AB3533;
+}
+
+.productRating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productRating div {
+    display: flex;
+    align-items: center;
+}
+
+.productRating div span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.slickArrows {
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    font-size: 20px;
+}
+
+
+
+.slickArrowRight {
+    transform: translateX(150%);
+}
+
+.slickArrowLeft {
+    transform: translateX(-200%);
+}
+
+.slickArrows2.slickArrowRight {
+    transform: none;
+}
+
+.slickArrows2.slickArrowLeft {
+    transform: translateX(-50px);
+}
+
+.slickArrows2 {
+    background-color: #E4E5E5;
+    display: grid;
+    place-items: center;
+    padding: 15px 20px;
+}
+
+.slick-list {
+    padding: 0 20% 0 0 !important;
+}
+
+.trendingCardDark {
+    background-image: url('../../public/images/bg-circle.png');
+    background-repeat: no-repeat;
+    background-color: #0C1923;
+    color: white;
+    padding: 50px;
+    position: relative;
+    margin-bottom: 30px;
+    height: 250px;
+}
+
+.trendingCardDark1 {
+    background-position: 180%;
+}
+
+.trendingCardDark2 {
+    background-position: 100%;
+}
+
+
+.trendingCardDark .col-6 img {
+    position: absolute;
+    right: 50px;
+    bottom: -30px;
+}
+
+.trendingCardDark p {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #8d8d8d;
+}
+
+.trendingCardDark h4 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.trendingCardDark a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.trendingCardDark a span {
+    margin-left: 10px;
+}
+
+.moreCard p {
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1200px) {
+    .trendingContainer {
+        max-width: 95vw !important;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .trendingCardDark .col-6 img {
+        right: 10px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .customCarouselOuterContainer {
+        max-width: 95vw !important;
+    }
+
+    .shopBox {
+        background-size: cover;
+    }
+
+    .nbCardContainer {
+        max-width: 95vw !important;
+    }
+
+    .cardIconContainer {
+        width: 50px;
+        height: 50px;
+    }
+
+    .nbCardContainer .row>.col-lg-4 {
+        margin-bottom: 40px;
+    }
+
+    .discoverBanner img {
+        margin-bottom: 30px;
+    }
+
+    .sliderOuterContainer {
+        max-width: 95vw !important;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .customCarouselContainer {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "A A"
+            "B C";
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .trendingCardDark .col-6 img {
+        max-width: 200px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .customCarouselContainer {
+        grid-template-areas:
+            "A A"
+            "B B"
+            "C C";
+    }
+}

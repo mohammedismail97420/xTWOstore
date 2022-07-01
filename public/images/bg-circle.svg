@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="597px" height="597px" viewBox="0 0 597 597" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>8F1CC2C9-37CF-4D18-A12C-1F59229D7AED@1.5x</title>
+    <defs>
+        <path d="M211,0 C327.532082,0 422,94.4679178 422,211 C422,327.532082 327.532082,422 211,422 C94.4679178,422 0,327.532082 0,211 C0,94.4679178 94.4679178,0 211,0 Z M211.56117,33.6702128 C113.934559,33.6702128 34.7925532,112.812218 34.7925532,210.43883 C34.7925532,308.065441 113.934559,387.207447 211.56117,387.207447 C309.187782,387.207447 388.329787,308.065441 388.329787,210.43883 C388.329787,112.812218 309.187782,33.6702128 211.56117,33.6702128 Z" id="path-1"></path>
+    </defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.0822870164">
+        <g id="XTWO-Home-05" transform="translate(-1088.000000, -1709.000000)">
+            <g id="Banner" transform="translate(135.000000, 1790.382922)">
+                <g id="Path-2-Copy-7" transform="translate(1251.399062, 217.016140) scale(-1, 1) rotate(-225.000000) translate(-1251.399062, -217.016140) translate(1040.399062, 6.016140)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#0C68B1" xlink:href="#path-1"></use>
+                    <polyline id="Path-2" stroke="#0C1923" stroke-width="13" mask="url(#mask-2)" transform="translate(19.126443, 189.477068) rotate(11.000000) translate(-19.126443, -189.477068) " points="-9.25920754 175.284243 19.1264427 203.669894 47.5120929 175.284243"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
